@@ -38,7 +38,7 @@ GROUP BY id
 HAVING  COUNT(id) > 1 ;
 
 SELECT DISTINCT(state_name)
-FROM us_household_income_statistics;
+FROM us_household_income;
 
 UPDATE us_household_income
 SET state_name= 'Georgia'
